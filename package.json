@@ -1,0 +1,22 @@
+{
+  "name": "software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jwt-then": "^1.0.1"
+  }
+}
